@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AI Text Summarizer App</title>
+  <link rel="stylesheet" href="stylesheet.css">   
+</head>
+<body>
+  <h1>Super Summarizer 10X</h1>
+  <p>Welcome to the AI Text Summarizer App! This innovative tool leverages cutting-edge Artificial Intelligence APIs to provide concise, accurate summaries of lengthy texts. Whether you're dealing with articles, research papers, or any other extensive document, our app is here to streamline your reading process.</p>
+  <p>Simply paste your text into the box below and click "Summarize" to get a brief overview in seconds.</p>
+
+  <div class="container">
+    <div class="text-box">
+      <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste your text here (min: 200 chars, max: 100,000 chars)" maxlength="100000"></textarea>
+      <button id="submit-button" class="submit-button">
+        <span class="submit-button-text">Summarize</span>
+      </button>
+    </div>
+    <div class="text-box">
+      <textarea id="summary" name="summarized_text" placeholder="Your summarized text will appear here" readonly></textarea>
+    </div>
+  </div>
+
+  <!-- <section class="cta-section">
+    <div class="cta-content">
+      <div class="cta-text">
+        <h2>Want to Build Your Own App?</h2>
+        <p>Join Postman's Student Program and enhance your software development and API skills. Elevate your career prospects with industry-leading knowledge and tools.</p>
+        <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=CGC&utm_medium=referral&utm_source=internal&utm_term=pbl-skilljar&utm_content=pbl_summariser_app" class="cta-button" target="_blank" rel="noopener nofollow">Register as a Student</a>
+      </div>
+      <img src="images/learning.png" alt="Learning with Postman">
+    </div>
+  </section> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
